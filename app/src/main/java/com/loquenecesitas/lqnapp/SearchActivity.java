@@ -91,7 +91,7 @@ public class SearchActivity extends AppCompatActivity
     }
 
     public void buscar(View v){
-        //Intent intent = new Intent(getApplicationContext(), ListProductActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(), ListProduct.class);
+        startActivity(intent);
     }
 }
