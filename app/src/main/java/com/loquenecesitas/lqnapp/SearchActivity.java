@@ -94,4 +94,10 @@ public class SearchActivity extends AppCompatActivity
         Intent intent = new Intent(getApplicationContext(), ListProduct.class);
         startActivity(intent);
     }
+    /* LLAMAR A OTRA PANTALLA (ACTIVITY) DESDE UN BOTON
+    public void relogin(View v){
+        Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+        startActivity(intent);
+    }
+    */
 }
